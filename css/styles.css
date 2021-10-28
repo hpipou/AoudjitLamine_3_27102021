@@ -286,3 +286,33 @@ i.coeurplein:hover
     }
 }
 i.coeurplein:before, i.coeurvide:before { display: initial; }
+
+/* ************************** SECTION 05 - FOOTER **************** */
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 40px;
+    background-color: #353535;
+    color: white;
+    align-items: center;
+}
+
+.footer-logo{
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 25px;
+}
+
+footer i{margin-right: 8px;}
+footer p{margin: 0 10px;}
+footer a{margin: 0; padding: 0;}
+footer p:nth-child(1){
+    margin-bottom: 15px!important;
+}
+
+footer p:hover{
+    color: #e671da;
+    transition: all 300ms;
+}
+
