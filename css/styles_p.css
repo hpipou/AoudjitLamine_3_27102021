@@ -293,6 +293,48 @@ footer p:hover{color: #e671da;transition: all 300ms;}
     -webkit-animation: slide-top 1.75s linear forwards 1s;
     animation: slide-top 1.75s linear forwards 1s;
 }
+
+.slide-top5 
+{  
+    opacity:0;
+    -webkit-animation: slide-top 1.75s linear forwards 1.25s;
+    animation: slide-top 1.75s linear forwards 1.25s;
+}
+.slide-top6 
+{  
+    opacity:0;
+    -webkit-animation: slide-top 1.75s linear forwards 1.50s;
+    animation: slide-top 1.75s linear forwards 1.50s;
+}
+.slide-top7 
+{  
+    opacity:0;
+    -webkit-animation: slide-top 1.75s linear forwards 1.75s;
+    animation: slide-top 1.75s linear forwards 1.75s;
+}
+.slide-top8 
+{  
+    opacity:0;
+    -webkit-animation: slide-top 1.75s linear forwards 2s;
+    animation: slide-top 1.75s linear forwards 2s;
+}
+.slide-top9 
+{  
+    opacity:0;
+    -webkit-animation: slide-top 1.75s linear forwards 2.25s;
+    animation: slide-top 1.75s linear forwards 2.25s;
+}
+.slide-top10
+{  
+    opacity:0;
+    -webkit-animation: slide-top 1.75s linear forwards 2.50s;
+    animation: slide-top 1.75s linear forwards 2.50s;
+}
+
+
+
+
+
 .visible
 {
     display: flex;
