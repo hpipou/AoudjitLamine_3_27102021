@@ -63,6 +63,7 @@ header i:hover{
 .section-01 h1{
     font-family: 'Shrikhand', sans-serif;
     font-size:32px;
+    margin-right: 26px;
 }
 .sec-01--en-tete{
     display:flex;
@@ -79,6 +80,11 @@ header i:hover{
 .sec-01-titre{font-weight:normal; margin:2px 0 0 0;font-size:17px;}
 
 /* ***************************** COEUR *************** */
+
+.details-coeurs{
+    margin: 35px 20px 0 0;
+    position: relative;
+}
 
 .coeurplein, .coeurvide{font-size:24px;font-weight:100;position: absolute;right: 3px;}
 i.coeurplein{opacity:0;z-index:8;}
@@ -228,8 +234,7 @@ footer p:hover{color: #e671da;transition: all 300ms;}
 {
     background-color: white;
     border-radius: 20px;
-    margin:0 15px;
-    width:90%;
+    width:100%;
     display: flex;
     gap:5px;
     padding-left:10px;
