@@ -29,3 +29,19 @@ header p{
     text-align: center;
     margin: 10px auto;
 }
+
+/* ************************** SECTION 01 **************** */
+
+.section-01{
+    margin: 0;
+    padding: 15px;
+    background: linear-gradient(180deg, rgba(207,207,207,1) 0%, rgba(234,234,234,1) 15%);
+}
+
+.section-01 i{margin-right: 12px; font-size: 15px; font-weight: 700;}
+.section-01 p{
+    color: #353535;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
