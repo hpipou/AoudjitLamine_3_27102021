@@ -73,8 +73,7 @@ header p{
     background: linear-gradient(180deg, rgba(226,112,218,1) 0%, rgba(166,92,219,1) 100%);
     width: 250px;
     color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
 }
 
 .sec-02-btn:hover{

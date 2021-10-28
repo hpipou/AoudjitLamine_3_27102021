@@ -70,10 +70,13 @@ header i:hover{
     position:relative;
 }
 
-.sec-01-titre{font-weight:normal; margin:2px 0 0 0;font-size:17px;}
-.ligne-verte{width:45px;height:3px;background-color:#99e2d0; margin: 2px 0 20px 0;}
+
+
 .tit2-3{margin-top:20px!important;}
 
+.div-conteneur-titre-ligne{position: relative; padding: 0; margin: 0 0 13px 0;}
+.ligne-verte{width:45px;height:3px;background-color:#99e2d0; position: absolute; bottom: -8px;}
+.sec-01-titre{font-weight:normal; margin:2px 0 0 0;font-size:17px;}
 
 /* ***************************** COEUR *************** */
 
@@ -123,6 +126,25 @@ i.coeurplein:hover{cursor: pointer;animation: fillheart 0.3s linear forwards;opa
 }
 i.coeurplein:before, i.coeurvide:before { display: initial; }
 
+
+/* ************************************ BOUTTON COMMANDER ***************** */
+
+.btn-commander{
+    text-align: center;
+    padding: 17px 30px;
+    margin: 40px auto 30px auto;
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(226,112,218,1) 0%, rgba(166,92,219,1) 100%);
+    width: 250px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+}
+
+.btn-commander:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: linear-gradient(180deg, rgba(249,97,238,1) 0%, rgba(146,75,196,1) 100%);
+    transition: all 900ms;
+}
 
 /* ************************** SECTION 05 - FOOTER **************** */
 footer{
