@@ -149,6 +149,8 @@ header p{
         width: 100%!important;
         height: 150px!important;
     }
+    .sec-03-items {padding: 10px 45px!important ;}
+    .sec-03-cont-items{padding: 0 15px!important;}
 
 }
 
