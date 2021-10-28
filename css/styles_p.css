@@ -30,9 +30,11 @@ a, a:hover, a:focus, a:active {
         flex-wrap: wrap!important;
         gap:15px;z-index:15;
         transition: all 1.5s ease-out;
-        justify-content: center!important;}
+        justify-content: center!important;
+    }
     .div-conteneur-titre-ligne{margin-left: 25px!important;}
     .entrées__choix, .plats__choix, .desserts__choix {width: 31%!important;}
+    .section-01 h1 {margin-left: 25px!important;}
 }
 @media (max-width: 767px) {
     footer{flex-direction: column!important;align-items: flex-start!important;}
