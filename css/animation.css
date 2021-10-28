@@ -1,4 +1,5 @@
 #wrapper-animation{
+    top: 0;
     margin: 0;
     position: fixed;
     z-index: 100000;
