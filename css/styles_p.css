@@ -35,6 +35,10 @@ a, a:hover, a:focus, a:active {
     .div-conteneur-titre-ligne{margin-left: 25px!important;}
     .entrées__choix, .plats__choix, .desserts__choix {width: 31%!important;}
     .section-01 h1 {margin-left: 25px!important;}
+
+    .btn-commander{
+        width: 250px!important;  
+    }
 }
 @media (max-width: 767px) {
     footer{flex-direction: column!important;align-items: flex-start!important;}
