@@ -80,8 +80,8 @@ header p {
   border-radius: 25px;
   background: linear-gradient(
     180deg,
-    rgba(226, 112, 218, 1) 0%,
-    rgba(166, 92, 219, 1) 100%
+    var(--couleur-secondaire) 0%,
+    var(--couleur-primaire) 100%
   );
   width: 250px;
   color: white;
@@ -93,9 +93,10 @@ header p {
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   background: linear-gradient(
     180deg,
-    rgba(249, 97, 238, 1) 0%,
-    rgba(146, 75, 196, 1) 100%
+    var(--couleur-primaire) 0%,
+    var(--couleur-secondaire) 100%
   );
+  transform: scale(1.04);
   transition: all 900ms;
 }
 
@@ -137,9 +138,9 @@ header p {
 }
 
 .num-item {
-  background-color: #9356dc;
+  background-color: var(--couleur-primaire);
   border-radius: 50%;
-  padding: 3px 7px;
+  padding: 3px 8px;
   color: white;
   position: absolute;
   top: 10%;
@@ -147,7 +148,7 @@ header p {
 }
 
 .lien-fonctionnement:hover i {
-  color: #9356dc;
+  color: var(--couleur-primaire);
 }
 
 .lien-fonctionnement:hover .sec-03-items {
@@ -156,49 +157,6 @@ header p {
 }
 
 /* **************************** SECTION 04 *************************** */
-@media screen and (max-width: 768px) {
-  .sec-03-cont-items {
-    flex-direction: column;
-  }
-  footer {
-    display: flex;
-    justify-content: flex-start !important;
-    flex-direction: column;
-    align-items: flex-start !important;
-  }
-
-  .sec-04-cont-items {
-    min-width: 250px !important;
-    display: flex !important;
-    flex: 1 !important;
-    flex-direction: column !important;
-    flex-wrap: wrap !important;
-  }
-  .sec-04-img {
-    width: 100% !important;
-    height: 150px !important;
-  }
-  .sec-03-items {
-    padding: 10px 45px !important ;
-  }
-  .sec-03-cont-items {
-    padding: 0 15px !important;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .sec-04-img {
-    width: 320px !important;
-    height: 150px !important;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1100px) {
-  .sec-04-img {
-    width: 450px !important;
-    height: 200px !important;
-  }
-}
 
 .section-04 {
   background-color: #f6f6f6;
@@ -226,9 +184,9 @@ header p {
 }
 .eithique-new {
   position: absolute;
-  background-color: #99e2d0;
+  background-color: var(--couleur-tertiaire);
   padding: 6px 17px;
-  color: #008766;
+  color: var(--couleur-tertiaire-dark);
   top: 0px;
   right: 13px;
   border-radius: 3px;
@@ -263,7 +221,7 @@ header p {
 }
 
 .sec-04-items:hover {
-  color: #9356dc;
+  color: var(--couleur-primaire);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   transition: all 300ms;
@@ -373,42 +331,6 @@ i.coeurvide:before {
   display: initial;
 }
 
-/* ************************** SECTION 05 - FOOTER **************** */
-footer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 40px;
-  background-color: #353535;
-  color: white;
-  align-items: center;
-}
-
-.footer-logo {
-  font-family: "Shrikhand", sans-serif;
-  font-size: 25px;
-}
-
-footer i {
-  margin-right: 8px;
-}
-footer p {
-  margin: 0 10px;
-}
-footer a {
-  margin: 0;
-  padding: 0;
-}
-footer p:nth-child(1) {
-  margin-bottom: 15px !important;
-}
-
-footer p:hover {
-  color: #e671da;
-  transition: all 300ms;
-}
-
 /* *****************************************************************************
 ********************************* EFFET DU SLIDE *******************************
 ****************************************************************************** */
@@ -460,5 +382,52 @@ footer p:hover {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     opacity: 1;
+  }
+}
+
+/* **********************************************************
+*********** RESPONSIVE DESIGN - MEDIA QUERIES ***************
+************************************************************* */
+@media screen and (max-width: 768px) {
+  .sec-03-cont-items {
+    flex-direction: column;
+  }
+  footer {
+    display: flex;
+    justify-content: flex-start !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .sec-04-cont-items {
+    min-width: 250px !important;
+    display: flex !important;
+    flex: 1 !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+  .sec-04-img {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  .sec-03-items {
+    padding: 10px 45px !important ;
+  }
+  .sec-03-cont-items {
+    padding: 0 15px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .sec-04-img {
+    width: 320px !important;
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+  .sec-04-img {
+    width: 450px !important;
+    height: 200px !important;
   }
 }

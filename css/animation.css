@@ -17,8 +17,8 @@
   width: 150px;
   height: 150px;
   border: 20px solid white;
-  border-top: 20px solid #e74c3c;
-  border-bottom: 20px solid #34495e;
+  border-top: 20px solid var(--couleur-primaire);
+  border-bottom: 20px solid var(--couleur-tertiaire);
   border-left-color: transparent;
   border-right-color: transparent;
   border-radius: 50%;
@@ -43,13 +43,13 @@
 }
 
 .oh-load-text {
-  color: #1abc9c;
+  color: var(--couleur-tertiaire);
 }
 .my-load-text {
-  color: #9b59b6;
+  color: var(--couleur-primaire);
 }
 .food-load-text {
-  color: #34495e;
+  color: var(--couleur-secondaire);
 }
 
 .rotate-center {
