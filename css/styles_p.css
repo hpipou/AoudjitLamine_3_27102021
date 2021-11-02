@@ -55,18 +55,18 @@ header i:hover {
   z-index: -1;
 }
 
-.section-01 {
+.conteneur-principal__sous-conteneur {
   border-radius: 40px 40px 0 0;
   padding: 15px 15px 30px 15px;
   background-color: var(--couleur-bg-gris);
   position: relative;
 }
-.section-01 h1 {
+.conteneur-principal__sous-conteneur h1 {
   font-family: "Shrikhand", sans-serif;
   font-size: 32px;
   margin-right: 26px;
 }
-.sec-01--en-tete {
+.conteneur-principal__sous-conteneur--en-tete {
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -230,7 +230,6 @@ header i:hover {
 .entrees {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   gap: 15px;
   z-index: 15;
   transition: all 1.5s ease-out;
@@ -436,7 +435,7 @@ header i:hover {
   .desserts__choix {
     width: 31% !important;
   }
-  .section-01 h1 {
+  .conteneur-principal__sous-conteneur h1 {
     margin-left: 25px !important;
   }
 
@@ -449,7 +448,7 @@ header i:hover {
     flex-direction: column !important;
     align-items: flex-start !important;
   }
-  .sec-01-cont-items {
+  .conteneur-principal__sous-conteneur--conteneur-items {
     padding: 0 10px 0 0 !important;
   }
 }
