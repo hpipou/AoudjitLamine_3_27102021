@@ -1,0 +1,106 @@
+.details-coeurs {
+  margin: 35px 20px 0 0;
+  position: relative;
+}
+
+.coeurplein,
+.coeurvide {
+  font-size: 24px;
+  font-weight: 100;
+  position: absolute;
+  right: 3px;
+}
+i.coeurplein {
+  opacity: 0;
+  z-index: 8;
+}
+i.coeurvide {
+  z-index: 6;
+  opacity: 1;
+}
+i.coeurvide:hover {
+  opacity: 0;
+  z-index: 1;
+}
+i.coeurplein:hover {
+  cursor: pointer;
+  animation: fillheart 0.3s linear forwards;
+  opacity: 1;
+}
+
+@keyframes fillheart {
+  0% {
+    opacity: 0.25;
+    background: linear-gradient(
+      to top,
+      var(--color-1) 0%,
+      var(--color-2) 43%,
+      var(--color-3) 70%,
+      var(--color-4) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24.25px;
+  }
+  25% {
+    opacity: 0.33;
+    background: linear-gradient(
+      to top,
+      var(--color-1) 0%,
+      var(--color-2) 43%,
+      var(--color-3) 70%,
+      var(--color-4) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24.25px;
+  }
+  50% {
+    opacity: 0.5;
+    background: linear-gradient(
+      to top,
+      var(--color-1) 0%,
+      var(--color-2) 43%,
+      var(--color-3) 70%,
+      var(--color-4) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24.25px;
+  }
+  75% {
+    opacity: 0.75;
+    background: linear-gradient(
+      to top,
+      var(--color-1) 0%,
+      var(--color-2) 43%,
+      var(--color-3) 70%,
+      var(--color-4) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24.25px;
+  }
+  100% {
+    opacity: 1;
+    background: linear-gradient(
+      to top,
+      var(--color-1) 0%,
+      var(--color-2) 43%,
+      var(--color-3) 70%,
+      var(--color-4) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24.25px;
+  }
+}
+i.coeurplein:before,
+i.coeurvide:before {
+  display: initial;
+}

@@ -85,16 +85,15 @@ header p {
   );
   width: 250px;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .sec-02-btn:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: linear-gradient(
     180deg,
-    var(--couleur-primaire) 0%,
-    var(--couleur-secondaire) 100%
+    var(--color-btn-top) 0%,
+    var(--color-btn-bottom) 100%
   );
   transform: scale(1.04);
   transition: all 900ms;
@@ -225,110 +224,6 @@ header p {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   transition: all 300ms;
-}
-
-/* ***************************** COEUR *************** */
-
-.coeurplein,
-.coeurvide {
-  font-size: 24px;
-  font-weight: 100;
-  position: absolute;
-  right: 3px;
-}
-i.coeurplein {
-  opacity: 0;
-  z-index: 8;
-}
-i.coeurvide {
-  z-index: 6;
-  opacity: 1;
-}
-i.coeurvide:hover {
-  opacity: 0;
-  z-index: 1;
-}
-
-i.coeurplein:hover {
-  cursor: pointer;
-  animation: fillheart 0.3s linear forwards;
-  opacity: 1;
-}
-@keyframes fillheart {
-  0% {
-    opacity: 0.25;
-    background: linear-gradient(
-      to top,
-      #e16fda 0%,
-      #e270da 43%,
-      #a55cdb 70%,
-      #ab65ed 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 24.25px;
-  }
-  25% {
-    opacity: 0.33;
-    background: linear-gradient(
-      to top,
-      #e16fda 0%,
-      #e270da 43%,
-      #a55cdb 70%,
-      #ab65ed 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 24.25px;
-  }
-  50% {
-    opacity: 0.5;
-    background: linear-gradient(
-      to top,
-      #e16fda 0%,
-      #e270da 43%,
-      #a55cdb 70%,
-      #ab65ed 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 24.25px;
-  }
-  75% {
-    opacity: 0.75;
-    background: linear-gradient(
-      to top,
-      #e16fda 0%,
-      #e270da 43%,
-      #a55cdb 70%,
-      #ab65ed 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 24.25px;
-  }
-  100% {
-    opacity: 1;
-    background: linear-gradient(
-      to top,
-      #e16fda 0%,
-      #e270da 43%,
-      #a55cdb 70%,
-      #ab65ed 100%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 24.25px;
-  }
-}
-i.coeurplein:before,
-i.coeurvide:before {
-  display: initial;
 }
 
 /* *****************************************************************************
