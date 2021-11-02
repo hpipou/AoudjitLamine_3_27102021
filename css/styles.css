@@ -68,12 +68,12 @@ header p {
   text-align: center;
   font-weight: 900;
 }
-.sec-02-p {
+.section-02__details {
   margin: 15px 20px 0 20px;
   text-align: center;
   font-weight: 100;
 }
-.sec-02-btn {
+.section-02__btn {
   text-align: center;
   padding: 17px 30px;
   margin: 25px auto;
@@ -88,7 +88,7 @@ header p {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.sec-02-btn:hover {
+.section-02__btn:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: linear-gradient(
     180deg,
@@ -105,18 +105,18 @@ header p {
   margin: 0;
   padding: 0;
 }
-.sec-03-titre {
+.secion-03 h2 {
   text-align: center;
   margin: 40px 0 28px 0;
 }
-.sec-03-cont-items {
+.secion-03__items {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 0 40px;
 }
 
-.sec-03-items {
+.secion-03__items--elements {
   position: relative;
   background-color: #f6f6f6;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -125,14 +125,14 @@ header p {
   align-items: center;
   margin: 9px 10px;
 }
-.sec-03-items i {
+.secion-03__items--elements i {
   margin-right: 20px;
   color: #7e7e7e;
   position: absolute;
   top: 40%;
   left: 30px;
 }
-.sec-03-items p:nth-child(1) {
+.secion-03__items--elements p:nth-child(1) {
   text-align: center;
 }
 
@@ -146,34 +146,36 @@ header p {
   left: -10px;
 }
 
-.lien-fonctionnement:hover i {
+.secion-03__items--lien:hover i {
   color: var(--couleur-primaire);
 }
 
-.lien-fonctionnement:hover .sec-03-items {
+.secion-03__items--lien:hover .secion-03__items--elements {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-/* **************************** SECTION 04 *************************** */
+/* *************************************************************
+****************************** SECTION 04 **********************
+**************************************************************** */
 
 .section-04 {
   background-color: #f6f6f6;
   margin: 0;
   padding: 0 0 60px 0;
 }
-.sec-04-titre {
+.section-04 h2 {
   text-align: center;
   margin: 50px 0 15px 0;
   padding: 38px 0 10px 0;
 }
 
-.sec-04-cont-items {
+.section-04__conteneur-items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.sec-04-items {
+.section-04__conteneur-items--item {
   position: relative;
   background-color: white;
   border-radius: 17px;
@@ -181,6 +183,8 @@ header p {
   margin: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+/* ************* Etiquette Nouveau Menu *************** */
 .eithique-new {
   position: absolute;
   background-color: var(--couleur-tertiaire);
@@ -191,23 +195,27 @@ header p {
   border-radius: 3px;
 }
 
-.sec-04-img {
+.ancien {
+  display: none;
+}
+
+.section-04__img {
   border-radius: 17px 17px 0 0;
   width: 500px;
   height: 200px;
   margin: 0;
   object-fit: cover;
 }
-.details {
+.item-details {
   display: flex;
   justify-content: space-between;
 }
-.det-item-titre {
+.item-details__titre {
   margin: 15px 0 0 20px;
   font-weight: bold;
   padding: 0;
 }
-.det-item-sous-titre {
+.item-details__sous-titre {
   margin: 5px 0 15px 20px;
   padding: 0;
 }
@@ -215,11 +223,8 @@ header p {
   margin: 15px 20px 0 0;
   position: relative;
 }
-.ancien {
-  display: none;
-}
 
-.sec-04-items:hover {
+.section-04__conteneur-items--item:hover {
   color: var(--couleur-primaire);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -284,7 +289,7 @@ header p {
 *********** RESPONSIVE DESIGN - MEDIA QUERIES ***************
 ************************************************************* */
 @media screen and (max-width: 768px) {
-  .sec-03-cont-items {
+  .secion-03__items {
     flex-direction: column;
   }
   footer {
@@ -294,34 +299,34 @@ header p {
     align-items: flex-start !important;
   }
 
-  .sec-04-cont-items {
+  .section-04__conteneur-items {
     min-width: 250px !important;
     display: flex !important;
     flex: 1 !important;
     flex-direction: column !important;
     flex-wrap: wrap !important;
   }
-  .sec-04-img {
+  .section-04__img {
     width: 100% !important;
     height: 150px !important;
   }
-  .sec-03-items {
+  .secion-03__items--elements {
     padding: 10px 45px !important ;
   }
-  .sec-03-cont-items {
+  .secion-03__items {
     padding: 0 15px !important;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .sec-04-img {
+  .section-04__img {
     width: 320px !important;
     height: 150px !important;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1100px) {
-  .sec-04-img {
+  .section-04__img {
     width: 450px !important;
     height: 200px !important;
   }
