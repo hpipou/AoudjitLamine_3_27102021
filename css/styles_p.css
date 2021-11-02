@@ -21,45 +21,6 @@ a:active {
   color: inherit;
 }
 
-/* ************************* RESPONSIVE ************************* */
-
-@media (min-width: 992px) {
-  .entrées,
-  .plats,
-  .desserts {
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    gap: 15px;
-    z-index: 15;
-    transition: all 1.5s ease-out;
-    justify-content: center !important;
-  }
-  .div-conteneur-titre-ligne {
-    margin-left: 25px !important;
-  }
-  .entrées__choix,
-  .plats__choix,
-  .desserts__choix {
-    width: 31% !important;
-  }
-  .section-01 h1 {
-    margin-left: 25px !important;
-  }
-
-  .btn-commander {
-    width: 250px !important;
-  }
-}
-@media (max-width: 767px) {
-  footer {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-  }
-  .sec-01-cont-items {
-    padding: 0 10px 0 0 !important;
-  }
-}
-
 /* ************************** HEADER *********************** */
 
 header p {
@@ -85,7 +46,7 @@ header i:hover {
   position: relative;
   padding-top: 130px;
 }
-.sec-01--img {
+.conteneur-principal__img {
   position: absolute;
   top: 0px;
   width: 100%;
@@ -97,7 +58,7 @@ header i:hover {
 .section-01 {
   border-radius: 40px 40px 0 0;
   padding: 15px 15px 30px 15px;
-  background-color: #f6f6f6;
+  background-color: var(--couleur-bg-gris);
   position: relative;
 }
 .section-01 h1 {
@@ -266,7 +227,7 @@ header i:hover {
   gap: 15px;
 }
 
-.entrées {
+.entrees {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -295,7 +256,7 @@ header i:hover {
   white-space: nowrap !important;
 }
 
-.entrées__choix, .plats__choix, .desserts__choix /*.choix*/ {
+.entrees__choix, .plats__choix, .desserts__choix /*.choix*/ {
   background-color: white;
   border-radius: 20px;
   width: 100%;
@@ -377,7 +338,7 @@ header i:hover {
   transition-duration: 0.5s;
   transition-timing-function: ease;
 }
-.entrées__choix:hover .check, .plats__choix:hover .check, .desserts__choix:hover .check /*pour faire apparaître le check*/ {
+.entrees__choix:hover .check, .plats__choix:hover .check, .desserts__choix:hover .check /*pour faire apparaître le check*/ {
   display: flex;
   font-size: 22px;
   color: white;
@@ -398,7 +359,7 @@ header i:hover {
   transition-duration: 0.5s;
   transition-timing-function: ease;
 }
-.entrées__choix:hover i.rotation,
+.entrees__choix:hover i.rotation,
 .plats__choix:hover i.rotation,
 .desserts__choix:hover i.rotation {
   animation: rotate-center 0.3s ease-in-out both;
@@ -451,5 +412,44 @@ header i:hover {
   100% {
     -webkit-transform: translateX(-1px);
     transform: translateX(-1px);
+  }
+}
+
+/* ************************* RESPONSIVE ************************* */
+
+@media (min-width: 992px) {
+  .entrees,
+  .plats,
+  .desserts {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 15px;
+    z-index: 15;
+    transition: all 1.5s ease-out;
+    justify-content: center !important;
+  }
+  .div-conteneur-titre-ligne {
+    margin-left: 25px !important;
+  }
+  .entrees__choix,
+  .plats__choix,
+  .desserts__choix {
+    width: 31% !important;
+  }
+  .section-01 h1 {
+    margin-left: 25px !important;
+  }
+
+  .btn-commander {
+    width: 250px !important;
+  }
+}
+@media (max-width: 767px) {
+  footer {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .sec-01-cont-items {
+    padding: 0 10px 0 0 !important;
   }
 }

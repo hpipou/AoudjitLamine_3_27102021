@@ -1,5 +1,5 @@
 .details-coeurs {
-  margin: 35px 20px 0 0;
+  margin: 18px 20px 0 0;
   position: relative;
 }
 
@@ -33,10 +33,10 @@ i.coeurplein:hover {
     opacity: 0.25;
     background: linear-gradient(
       to top,
-      var(--color-1) 0%,
-      var(--color-2) 43%,
-      var(--color-3) 70%,
-      var(--color-4) 100%
+      var(--color-coeur-1) 0%,
+      var(--color-coeur-2) 43%,
+      var(--color-coeur-3) 70%,
+      var(--color-coeur-4) 100%
     );
     background-clip: text;
     -webkit-background-clip: text;
@@ -47,10 +47,10 @@ i.coeurplein:hover {
     opacity: 0.33;
     background: linear-gradient(
       to top,
-      var(--color-1) 0%,
-      var(--color-2) 43%,
-      var(--color-3) 70%,
-      var(--color-4) 100%
+      var(--color-coeur-1) 0%,
+      var(--color-coeur-2) 43%,
+      var(--color-coeur-3) 70%,
+      var(--color-coeur-4) 100%
     );
     background-clip: text;
     -webkit-background-clip: text;
@@ -61,10 +61,10 @@ i.coeurplein:hover {
     opacity: 0.5;
     background: linear-gradient(
       to top,
-      var(--color-1) 0%,
-      var(--color-2) 43%,
-      var(--color-3) 70%,
-      var(--color-4) 100%
+      var(--color-coeur-1) 0%,
+      var(--color-coeur-2) 43%,
+      var(--color-coeur-3) 70%,
+      var(--color-coeur-4) 100%
     );
     background-clip: text;
     -webkit-background-clip: text;
@@ -75,10 +75,10 @@ i.coeurplein:hover {
     opacity: 0.75;
     background: linear-gradient(
       to top,
-      var(--color-1) 0%,
-      var(--color-2) 43%,
-      var(--color-3) 70%,
-      var(--color-4) 100%
+      var(--color-coeur-1) 0%,
+      var(--color-coeur-2) 43%,
+      var(--color-coeur-3) 70%,
+      var(--color-coeur-4) 100%
     );
     background-clip: text;
     -webkit-background-clip: text;
@@ -89,10 +89,10 @@ i.coeurplein:hover {
     opacity: 1;
     background: linear-gradient(
       to top,
-      var(--color-1) 0%,
-      var(--color-2) 43%,
-      var(--color-3) 70%,
-      var(--color-4) 100%
+      var(--color-coeur-1) 0%,
+      var(--color-coeur-2) 43%,
+      var(--color-coeur-3) 70%,
+      var(--color-coeur-4) 100%
     );
     background-clip: text;
     -webkit-background-clip: text;

@@ -1,4 +1,5 @@
 :root {
+  /* Couleurs principales du thème */
   --couleur-primaire: #9356dc;
   --couleur-secondaire: #ff79da;
   --couleur-tertiaire: #99e2d0;
@@ -7,12 +8,20 @@
   --couleur-footer-bg: #353535;
 
   /* COULEUR COEUR */
-  --color-1: #e16fda; /* Coeur  00%  */
-  --color-2: #e270da; /* Coeur  43%  */
-  --color-3: #a55cdb; /* Coeur  70%  */
-  --color-4: #ab65ed; /* Coeur 100%  */
+  --color-coeur-1: #e16fda; /* Coeur  00%  */
+  --color-coeur-2: #e270da; /* Coeur  43%  */
+  --color-coeur-3: #a55cdb; /* Coeur  70%  */
+  --color-coeur-4: #ab65ed; /* Coeur 100%  */
 
   /*  COULEUR DE BOUTONS : HOVER (PLUS CLAIRE QUE PRIMAIRE/SECONDAIRE)  */
   --color-btn-top: #fc91de;
   --color-btn-bottom: #a872eb;
+
+  /*  COULEUR DE FOND */
+  --couleur-bg-gris: #f6f6f6;
+  --couleur-bg-zone: linear-gradient(
+    180deg,
+    rgba(207, 207, 207, 1) 0%,
+    rgba(234, 234, 234, 1) 15%
+  );
 }
