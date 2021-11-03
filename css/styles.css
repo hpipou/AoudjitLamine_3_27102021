@@ -170,6 +170,8 @@ header p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .section-04__conteneur-items--item {
   position: relative;
