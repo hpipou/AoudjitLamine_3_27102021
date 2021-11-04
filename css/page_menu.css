@@ -225,7 +225,6 @@ header i:hover {
 .gastronomie__LaCarte {
   display: flex;
   flex-direction: column;
-  z-index: 15;
   gap: 15px;
 }
 
@@ -235,7 +234,6 @@ header i:hover {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  z-index: 15;
 }
 
 .gastronomie__LaCarte p {
@@ -314,13 +312,11 @@ header i:hover {
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  z-index: 15;
   height: 100%;
   min-height: 69px;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   flex-wrap: wrap;
-
   max-width: 0px;
   width: 0%;
   margin-right: 0px;
@@ -336,7 +332,6 @@ header i:hover {
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  z-index: 15;
   height: 100%;
   min-height: 69px;
   max-width: 58px;
@@ -344,7 +339,6 @@ header i:hover {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   flex-wrap: wrap;
-
   margin-right: 0px;
   transition-duration: 0.5s;
   transition-timing-function: ease;
@@ -414,7 +408,6 @@ header i:hover {
     flex-direction: row !important;
     flex-wrap: wrap !important;
     gap: 15px;
-    z-index: 15;
     transition: all 1.5s ease-out;
     justify-content: center !important;
   }
