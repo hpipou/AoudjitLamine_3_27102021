@@ -67,6 +67,8 @@ header i:hover {
   font-family: "Shrikhand", sans-serif;
   font-size: 32px;
   margin-right: 26px;
+  letter-spacing: 0.02em;
+  font-weight: 350;
 }
 .conteneur-principal__sous-conteneur--en-tete {
   display: flex;
