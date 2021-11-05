@@ -238,60 +238,6 @@ header p {
   transition: all 300ms;
 }
 
-/* *****************************************************************************
-********************************* EFFET DU SLIDE *******************************
-****************************************************************************** */
-
-.slide-top-01,
-.slide-top-02,
-.slide-top-03 {
-  opacity: 0;
-  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-.slide-top-02 {
-  animation-delay: 200ms;
-}
-.slide-top-03 {
-  animation-delay: 500ms;
-}
-
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 0;
-  }
-  80% {
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 0;
-  }
-  80% {
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
-    opacity: 0.8;
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
 /* **********************************************************
 *********** RESPONSIVE DESIGN - MEDIA QUERIES ***************
 ************************************************************* */
