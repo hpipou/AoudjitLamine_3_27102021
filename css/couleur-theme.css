@@ -13,10 +13,6 @@
   --color-coeur-3: #a55cdb; /* Coeur  70%  */
   --color-coeur-4: #ab65ed; /* Coeur 100%  */
 
-  /*  COULEUR DE BOUTONS : HOVER (PLUS CLAIRE QUE PRIMAIRE/SECONDAIRE)  */
-  --color-btn-top: #fc91de;
-  --color-btn-bottom: #a872eb;
-
   /*  COULEUR DE FOND */
   --couleur-bg-gris: #f6f6f6;
   --couleur-bg-zone: linear-gradient(

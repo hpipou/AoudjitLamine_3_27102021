@@ -94,11 +94,7 @@ header p {
 
 .section-02__btn:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background: linear-gradient(
-    180deg,
-    var(--color-btn-top) 0%,
-    var(--color-btn-bottom) 100%
-  );
+  filter: brightness(120%);
   transform: scale(1.04);
   transition: all 900ms;
 }
