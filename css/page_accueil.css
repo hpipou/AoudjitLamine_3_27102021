@@ -25,7 +25,7 @@ a:active {
 
 header p {
   font-family: "Shrikhand", sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   margin: 10px auto;
 }
@@ -36,18 +36,26 @@ header p {
   margin: 0;
   padding: 15px;
   background: var(--couleur-bg-zone);
+  display: flex;
+  justify-content: center;
+  color: #353535;
 }
 
 .section-01 i {
-  margin-right: 12px;
+  margin: 0 12px 0 10px;
   font-size: 15px;
   font-weight: 700;
 }
-.section-01 p {
-  color: #353535;
-  text-align: center;
-  margin: 0;
-  font-weight: bold;
+
+.section-01 input {
+  background-color: var(--couleur-bg-zone);
+  border: 0px;
+  font-weight: 600;
+  width: 100px;
+}
+
+.section-01 input:focus {
+  outline: none;
 }
 
 /* ****************************** SECTION 02 ************************ */
@@ -209,8 +217,9 @@ header p {
   justify-content: space-between;
 }
 .item-details__titre {
-  margin: 15px 0 0 20px;
+  margin: 12px 0 0 20px;
   font-weight: bold;
+  font-size: 16px;
   padding: 0;
 }
 .item-details__sous-titre {
