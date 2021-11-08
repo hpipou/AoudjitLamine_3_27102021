@@ -238,6 +238,11 @@ header p {
 *********** RESPONSIVE DESIGN - MEDIA QUERIES ***************
 ************************************************************* */
 @media screen and (max-width: 768px) {
+  .secion-03 h2,
+  .section-04 h2 {
+    text-align: left !important;
+    margin-left: 20px;
+  }
   .secion-03__items {
     flex-direction: column;
   }
